@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone with js</title>
+    <link rel="stylesheet" href="../css/timer.css">
+</head>
+
+<body class="body">
+    <div class="container">
+        <a class="link" href="../index.html">BACK TO HOME</a>
+        <div class="stopwatch">
+            <h1 id="displayTime">00:00:00</h1>
+            <div class="buttons">
+                <img class="w" src="../images/stop.png" alt="" onclick="watchStop()">
+                <img class="play" src="../images/play.png" alt="" onclick="watchStart()">
+                <img class="w" src="../images/reset.png" alt="" onclick="watchReset()">
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/timer.js"></script>
+</body>
+
+</html>

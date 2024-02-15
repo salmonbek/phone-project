@@ -1,0 +1,132 @@
+.body {
+  background-image: url("../images/realistic-smartphone-interface-high-quality-mobile-phone-front-view-empty-screen-mockup-free-png.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: rgb(132, 67, 67);
+  padding: 30px 8px 10px 8px;
+}
+
+.container {
+  max-width: 380px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img1 {
+  width: 20px;
+  height: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.img2 {
+  width: 60px;
+  height: 60px;
+}
+
+.flex2 {
+  position: absolute;
+  top: 630px;
+  display: flex;
+  gap: 20px;
+  padding: 3px 3px;
+  border-radius: 5px;
+  backdrop-filter: blur(10px);
+  background-color: rgb(248, 248, 223);
+}
+
+.wrapper {
+  display: flex;
+  margin-top: 100px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.alarm {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 30px;
+}
+
+.wrapper h1 {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.wrapper .content {
+  width: 100%;
+  padding: 70px 4px;
+  background-color: rgb(236, 158, 158);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content .column {
+  padding: 0px 10px;
+  border: 1px solid blueviolet;
+  width: calc(100% / 3-5px);
+  border-radius: 8px;
+}
+.column select {
+  outline: none;
+  border: none;
+  background: transparent;
+  height: 40px;
+  width: 100%;
+  font-size: 16px;
+}
+
+.wrapper button {
+  width: 100%;
+  outline: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 16px;
+  padding: 15px 0;
+  border-radius: 5px;
+  background-color: rgb(239, 176, 95);
+}
+
+.wrapper .content.disable {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.link {
+  margin-bottom: 30px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  background-color: rgb(250, 93, 93);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link:hover {
+  color: black;
+  background-color: rgb(132, 83, 247);
+  transition: 0.5s;
+}
