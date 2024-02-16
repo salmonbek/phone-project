@@ -1,0 +1,75 @@
+.body {
+  background-image: url("../images/realistic-smartphone-interface-high-quality-mobile-phone-front-view-empty-screen-mockup-free-png.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: rgb(132, 67, 67);
+  padding: 30px 8px 10px 8px;
+}
+a {
+  text-decoration: none;
+}
+.link {
+  padding-top: 100px;
+  margin-bottom: 30px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  background-color: rgb(250, 93, 93);
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+.link:hover {
+  color: black;
+  background-color: rgb(132, 83, 247);
+  transition: 0.5s;
+}
+
+.container {
+  max-width: 380px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+textarea {
+  width: 80%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
