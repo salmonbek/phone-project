@@ -10,4 +10,9 @@ setInterval(() => {
     (currentTime.getMinutes() < 10 ? "0" : "") + currentTime.getMinutes();
 }, 1000);
 
-//
+let percentage = document.querySelector(".percentage");
+let percent = document.querySelector(".percent");
+navigator.getBattery().then(function (battery) {
+  percentage.style.width = battery.level * 100 + "%";
+  percent.innerHTML = battery.level * 100 + "%";
+});
